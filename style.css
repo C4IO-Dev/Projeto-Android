@@ -1,0 +1,191 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: idroid;
+    src: url(idroid.otf)
+    format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* *{
+  margin: 0%;
+  padding: 0%;
+} */
+
+body{
+    background-color: bisque;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.cabecalho{
+    width: 100%;
+    color: white;
+    background: linear-gradient(to bottom, #3CD983, #134228 85%);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: -10px;
+    height: 200px;
+    position: relative;
+}
+
+.menu{
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+}
+
+.item{
+    color: #3CD983;
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+.item:hover{
+    color: #1d6d41;
+    background-color: #43dd88;
+    border-radius: 5px;
+}
+
+nav{
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.titulos{
+    font-family: idroid , sans-serif;
+    color: #114228;
+}
+
+.h2nav{
+    background: linear-gradient(to right, #43f192,white);
+}
+
+span{
+    color:#024724;
+    font-weight: bold;
+}
+
+.link{
+    background-color: #3CD983;
+    color: #13492c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link:visited{
+    color: #13492c;
+    text-decoration: none;
+}
+
+.link::after{
+    content: "\1F4CE";
+}
+
+aside{
+    color: #0f3b24;
+}
+
+.imagem{
+    padding: auto;
+}
+
+.mainimgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.bugdroid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+}
+
+.dvideo{
+    background-color: #0f3b24;
+    margin: 0px -9px 0px -9px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+.video{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+footer{
+    margin: -10px;
+    background-color: white;
+
+}
+
+h3{
+    background-color: #238351;
+    color: white;
+    font-weight: bold;
+    margin: 30px 20px 0px 20px;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.rodape{
+    padding: 10px;
+    margin: 0px 20px 0px 20px;
+    background-color: #2fda7b;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.lista{
+    list-style-type: '\2714\00a0\00a0';
+    columns: 2;
+    list-style-position: inside;
+}
+
+.extra{
+    padding: 5px 20px;
+}
+
+.criador{
+    background-color: #0f3b24;
+    color: white;
+    margin-bottom: -10px;
+    width: 100%;
+    text-align: center;
+}
+
+.ultima{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.responsivo{
+    width: 100%;
+}
+
+p{
+    line-height: 1.8em;
+} 
+
+h1{
+    text-align: center;
+    background-color: white;
+    font-family: idroid , sans-serif;
+    font-weight: 900;
+}
